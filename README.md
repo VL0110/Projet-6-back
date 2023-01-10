@@ -23,9 +23,9 @@ Bienvenue dans ce projet qui vise à permettre aux utilisateurs d'ajouter leurs 
 3°) Une fois que le cluster sera créé, rendez-vous sur « connect », puis  sur « connect your application » et copier le lien « mongo+srv… ».
 
 4°) Créez un fichier « .env » et insérez le lien mongodb récupéré précédemment comme suit :
-« DB_CONNEXION ='mongodb+srv://vl0110:<password>@cluster28.o2e0bh6.mongodb.net/?retryWrites=true&w=majority'
+« DB_CONNEXION ='mongodb+srv://vl0110:motdepasse@cluster28.o2e0bh6.mongodb.net/?retryWrites=true&w=majority'
 PORT = 3000 ».
-Dans mon cas voici le lien récupéré, il s’agira donc de récupérer votre propre lien et de remplacer le « <password> » par votre mot de passe.
+Dans mon cas voici le lien récupéré, il s’agira donc de récupérer votre propre lien et de remplacer le « motdepasse » par votre mot de passe.
 
 5°) Une fois les étapes suivies, vous pourrez mettre en route le front sur le terminal avec « ng serve » et le back avec « node server ».
 
