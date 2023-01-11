@@ -51,6 +51,6 @@ const errorHandler = error => {
     console.log('Listening on ' + bind);
   });
 
-// Écoute évènements port  
+// Écoute des évènements port  
 
 server.listen(port);

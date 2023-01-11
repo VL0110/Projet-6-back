@@ -1,4 +1,4 @@
-// Gérer fichiers entrants dans les requêtes http avec multer :
+// Gérer les fichiers entrants dans les requêtes http avec multer :
 
 const multer = require('multer');
 

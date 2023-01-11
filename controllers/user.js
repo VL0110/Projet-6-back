@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const User = require ('../models/User')
 
-// Permettre inscription utilisateur 
+// Permet inscription utilisateur 
 
 exports.signup = (req, res, next) => {
     bcrypt.hash(req.body.password, 10)
@@ -30,7 +30,7 @@ exports.login = (req, res, next) => {
             }
             bcrypt.compare(req.body.password, user.password) 
 
-            // Comparaison du mot de passe entré par l'utilisateur avec le hash enregistré dans la base de données (jwt)
+            // Comparaison du mot de passe entré par l'utilisateur avec l'hash enregistré dans la base de données (jwt)
             
                 .then(valid => {
                     if (!valid) {

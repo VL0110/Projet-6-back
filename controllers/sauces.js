@@ -7,7 +7,7 @@ const fs = require("fs");
 
 // CRUD
 
-// Objet utilisable 
+// Création sauce 
 
 exports.createSauce = (req, res, next) => {
     const sauceObject = JSON.parse(req.body.sauce);
@@ -114,7 +114,7 @@ exports.getAllSauce = (req, res, next) => {
       });
   };
 
-// Pour liker et disliker sauce 
+// Pour liker et disliker sauces
 
 exports.likedSauce = (req, res, next) => {
   let like = req.body.like
