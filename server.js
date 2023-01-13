@@ -1,4 +1,4 @@
-// Démarrer serveur basique  :
+// Démarrer serveur :
 
 const http = require('http');
 const app = require('./app');
