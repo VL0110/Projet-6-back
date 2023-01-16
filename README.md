@@ -33,3 +33,4 @@ Dans mon cas voici le lien récupéré, il s’agira donc de récupérer votre p
 
 Le site est à présent fonctionnel, inscrivez-vous et vous pourrez ajouter et modifier vos sauces ainsi que liker ou disliker celle des autres.
 
+Valentin Lintignac.
